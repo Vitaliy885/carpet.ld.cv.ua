@@ -18,7 +18,7 @@
 .top-section:before{
 	position: absolute;
 	content: '';
-	padding: 265px 0;
+	padding: 268px 0;
 	background-color: #000;
 	top: 0;
 	left: 0;
@@ -51,17 +51,18 @@
 	z-index: 9999;
 }
 .current-price{
-	font-size: 20px;
+	font-size: 22px;
+	font-weight: 600;
 }
 .diagonal-linia:before{
 	content: '';
 	background-color: red;
 	position: absolute;
 	transform: translate(-50%);
-	width: 230px;
+	width: 260px;
 	top: 12px;
 	transform: rotate(7deg);
-	height: 2px;
+	height: 3px;
 }
 .diagonal-linia:after{
 	content: '';
@@ -69,10 +70,10 @@
 	position: absolute;
 	transform: translate(-50%);
 	left: 41%;
-	width: 230px;
+	width: 260px;
 	top: 12px;
 	transform: rotate(173deg);
-	height: 2px;
+	height: 3px;
 }
 .christmas-price{
 	font-size: 22px;
@@ -188,4 +189,20 @@
 	text-shadow: 2px 1px #000;
 	font-size: 28px;
 	color: #c11b1b;
+}
+.harakteristika img{
+	box-shadow: 15px 15px 2px #c11b1b;
+}
+.harakteristika ul{
+	list-style-type: none;
+	text-align: left;
+}
+.harakteristika ul li{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.harakteristika ul li span{
+	text-transform: uppercase;
+	color: #c11b1b;
+	font-weight: 600;
 }
