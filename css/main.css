@@ -1,0 +1,191 @@
+.top-line{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ef3232;
+	letter-spacing: 2px;
+	text-shadow: 2px 1px #000;
+}
+.top-section{
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px 20px;
+	position: relative;
+}
+.top-section:before{
+	position: absolute;
+	content: '';
+	padding: 265px 0;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.3;
+}
+.top-section h1{
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+	letter-spacing: 2px;
+	font-size: 32px;
+	border: 2px solid #fff;
+	padding: 5px 0;
+	text-shadow: 2px 2px #000;
+}
+.top-section h2{
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+.top-section p{
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+}
+.current-price{
+	font-size: 20px;
+}
+.diagonal-linia:before{
+	content: '';
+	background-color: red;
+	position: absolute;
+	transform: translate(-50%);
+	width: 230px;
+	top: 12px;
+	transform: rotate(7deg);
+	height: 2px;
+}
+.diagonal-linia:after{
+	content: '';
+	background-color: red;
+	position: absolute;
+	transform: translate(-50%);
+	left: 41%;
+	width: 230px;
+	top: 12px;
+	transform: rotate(173deg);
+	height: 2px;
+}
+.christmas-price{
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.top-section .fa-arrow-down{
+	color: #fff;
+	position: relative;
+	z-index: 9999;
+	padding-bottom: 20px;		
+}
+.link-order{
+	position: relative;
+	z-index: 9999;
+	color: #fff;
+	background-color: #ef3232;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	transition: all ease-in-out 0.2s;
+}
+.link-order:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #d62626;
+}
+.get-fast-timer{
+	text-align: center;
+	padding: 50px 10px 70px 10px;
+	background-color: #c11b1b;
+}
+.get-fast-timer h2{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;	
+	text-shadow: 2px 2px #000;
+}
+.get-fast-timer p{
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.get-fast-timer .fa-user{
+	color: #fff;
+	margin-bottom: 25px;
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #fff;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #c11b1b;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+	color: #c11b1b;
+	letter-spacing: 1px;
+}
+
+#deadline-messadge{
+	display: none;
+	font-size: 24px;
+	font-style: italic;
+}
+#deadline-messadge.visible{
+	display: block;
+}
+#clockdiv.hidden{
+	display: none;
+}
+.order-now{
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	transition: all ease-in-out 0.2s;
+}
+.order-now:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #fff;
+	color: #c11b1b;
+}
+.harakteristika{
+	padding: 50px 10px;
+	text-align: center;
+}
+.harakteristika .osobluvosti{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 2px 1px #000;
+	font-size: 28px;
+	color: #c11b1b;
+}
