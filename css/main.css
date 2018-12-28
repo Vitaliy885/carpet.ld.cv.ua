@@ -189,6 +189,7 @@
 	text-shadow: 2px 1px #000;
 	font-size: 28px;
 	color: #c11b1b;
+	padding-bottom: 40px;
 }
 .harakteristika img{
 	box-shadow: 15px 15px 2px #c11b1b;
@@ -196,6 +197,7 @@
 .harakteristika ul{
 	list-style-type: none;
 	text-align: left;
+	padding-bottom: 30px;
 }
 .harakteristika ul li{
 	font-size: 16px;
@@ -205,4 +207,36 @@
 	text-transform: uppercase;
 	color: #c11b1b;
 	font-weight: 600;
+}
+.wanna-the-same{
+	color: #fff;
+	background-color: #ef3232;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	transition: all ease-in-out 0.2s;
+}
+.wanna-the-same:hover{
+	text-decoration: none;
+	color: #ef3232;
+	border: 2px solid #ef3232;
+	background-color: #fff;
+}
+.banner-sales{
+	background-image: url(../img/sales.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 20px 20px;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+}
+.banner-sales h1{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+		text-shadow: 2px 2px #000;
 }
