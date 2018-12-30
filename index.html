@@ -41,7 +41,7 @@
 				<p class="current-price diagonal-linia">Звичайна ціна - 1550 грн</p>
 				<p class="christmas-price">Новорічна ціна - <span style="background-color: #ef3232; padding: 5px; letter-spacing: 1px;">750 грн</span></p>
 				<p><i class="fa fa-arrow-down" aria-hidden="true"></i></p>
-				<a href="#" class="link-order">Хочу за новорічною ціною</a>
+				<a href="#form" class="link-order">Хочу за новорічною ціною</a>
 			</div>
 		</div>
 	</div>
@@ -73,7 +73,7 @@
 				<div class="col-md-6">
 					<h2 class="after-order">Після замовлення з Вами зв'яжеться наш менеджер</h2>
 					<i class="fa fa-user fa-5x" aria-hidden="true"></i><br>
-					<a href="#" class="order-now">Встигнути замовити</a>
+					<a href="#form" class="order-now">Встигнути замовити</a>
 				</div>
 			</div>
 		</div>
@@ -107,11 +107,40 @@
 	<div class="banner-sales">
 		<div class="container">
 			<div class="row">
-			<h1>при покупці три і більше отримаєте знижу</h1>
+				<h1>при покупці три і більше отримаєте знижу</h1>
 			</div>
 		</div>
 	</div>
-
+	<div class="block-arrow">
+		<div class="container">
+			<div class="row">
+				<i class="fa fa-arrow-down fa-3x" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+	<div class="block-for-form">
+		<div class="container">
+			<div class="row">
+				<form id="form" method="POST">
+					<h2>форма зворотнього зв'язку</h2>
+					<input type="text" name="name" required class="text-order" placeholder="Ваше ім'я">
+					<input type="text" name="surname" required class="text-order" placeholder="Ваше прізвище">
+					<input type="number" name="phone" required class="text-order" placeholder="Ваш телефон">
+					<button class="btn-order-carpet">Надіслати</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<h3>скатертини україна</h3>
+				<p>Доставка "Нова пошта" - оплата на карту або при отриманні</p>
+				<p>м. Чернівці</p>
+				<p>&copy; 2018 Всі права захищені<p>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -166,7 +195,7 @@
 			var timeinterval = setInterval(updateClock, 1000);
 		}
 
-		var deadline = new Date(Date.parse(new Date()) + 3 * 24 * 60 * 60 * 1000);
+		var deadline = new Date(Date.parse(new Date()) + 2 * 24 * 60 * 60 * 1000);
 		initializeClock("clockdiv", deadline);
 	</script>
 
